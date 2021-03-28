@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Arial','Microsoft YaHei';
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+}
+header{
+  height: 6rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  box-shadow: 0 0 0.3rem #bdc3c7;
+  background-color: #fff;
+}
+.wys_logo{
+  width: 3rem;
+  height: 3rem;
+}
+.wys_navigation{
+  margin-left: 3rem;
+  height: 100%;
+}
+.wys_navigation ul{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.wys_navigation ul li{
+  height: 100%;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+.wys_navigation ul li a{
+  color: #000;
+  text-decoration-line:none
+}
+.wys_navigation ul li:hover{
+  background-color: #bdc3c7;
+}
+main{
+  margin-top: 6rem;
+}
+.wys_banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(../imgs/banner.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30rem;
+  transition: background-size 1s;
+  color: #fff;
+  padding-top: 15rem;
+  text-align: center;
+}
+.wys_banner:hover{
+  background-size: 110% 110%;
+}
+.wys_banner-desc{
+  font-size: 2rem;
+}
+.wys_banner-btn{
+  color: #2c3e50;
+  background-color: #bdc3c7;
+  width: 6.48rem;
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.wys_banner-btn:hover{
+  background-color: #ecf0f1;
+}
